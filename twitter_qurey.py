@@ -1,4 +1,4 @@
-#building a query - tweets with the #bridgerton that are not retweets
+#building a query - tweets with the #EXPO2030 that are not retweets
 query = '#EXPO_2030,#EXPO2030 -filter:retweets'
 # we obtain a maximum of 1000 tweets
 max_tweets = 1000
