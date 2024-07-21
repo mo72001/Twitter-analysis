@@ -99,7 +99,7 @@ class TwitterListener(SampledStream):
 
 if __name__ == '__main__':
     # Authenticate using config.py and connect to Twitter Streaming API.
-    hash_tag_list = ["EXPO2030","expo2030","EXPO_2030","expo_2030"]
+    hash_tag_list = ["#EXPO2030","#expo2030","#EXPO_2030","#expo_2030"]
     fetched_tweets_filename = "tweets.txt"
 
     twitter_client = TwitterClient('pycon')
